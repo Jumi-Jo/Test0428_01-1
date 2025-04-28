@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연습-레스토랑 오늘</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montaga&family=Montserrat&family=Noto+Sans+KR:wght@100;500&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- js -->
+  <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="js/main.js"></script>
+
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="inner">
+        <h1><a href="#"><img src="images/logo.png" alt="오늘"></a></h1>
+
+        <nav>
+          <ul class="gnb">
+            <li data-menuanchor="menu1"><a href="#menu1">o’neul</a></li>
+            <li data-menuanchor="menu2"><a href="#menu2">Menu</a></li>
+            <li data-menuanchor="menu3"><a href="#menu3">People</a></li>
+            <li data-menuanchor="menu4"><a href="#menu4">Room</a></li>
+          </ul>
+        </nav>
+
+        <div class="ham"><span>모바일메뉴</span></div>
+
+        <a href="#" class="reserv"><span>Reservation</span></a>
+      </div><!-- .inner -->
+
+      <div class="mgnb-wrap">
+        <div class="mgnb-close"><span>닫기</span></div>
+        <div class="inner">
+          <ul class="mgnb">
+            <li><a href="#">o’neul</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">People</a></li>
+            <li><a href="#">Room</a></li>
+          </ul>
+        </div>
+      </div><!-- .mgnb-wrap -->
+    </header>
+
+    <main class="fullpage">
+      <section class="section mv fp-auto-height-responsive" data-anchor="menu1">
+        <video src="video/visual.mp4" loop muted data-autoplay playsinline></video>
+        <div class="mv-txt">
+          <h2>Restaurant o’neul</h2>
+          <p>가장 풍요롭고 생생한 시간,<br>
+            오늘을 주제로 한 전통 한식 다이닝</p>
+        </div><!-- .mv-txt -->
+      </section><!-- .mv -->
+
+      <section class="section value fp-auto-height-responsive" data-anchor="menu2">
+        <div class="inner">
+          <div class="value-txt-box">
+            <h6>Restaurant o'neul</h6>
+            <h3>o’neul Value</h3>
+            <p>레스토랑 오늘에서 선보이는 우리 음식은<br>
+              한국인의 정체성을 담고 있는 한식에 기반을 두고 있으며,<br>
+              우리 식 문화의 정통성을 지켜나가고 발전시켜 나가기 위해<br>
+              레스토랑 오늘만의 스타일로 재해석 한 메뉴를 제공합니다.</p>
+            <a href="#" class="more">view more</a>
+          </div>
+          <div class="value-img">
+            <img src="images/value_img.jpg" alt="케이크">
+          </div>
+        </div><!-- .inner -->
+      </section><!-- .value -->
+
+      <section class="section menu fp-auto-height-responsive" data-anchor="menu3">
+        <div class="inner">
+          <h6>Restaurant o'neul</h6>
+          <h3>o’neul Menu</h3>
+          <div class="swiper menu-img-box">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="images/menu_img01.jpg" alt="메뉴1">
+                <a>Luncheon</a>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/menu_img02.jpg" alt="메뉴2">
+                <a>Dinner</a>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/menu_img03.jpg" alt="메뉴3">
+                <a>Banquat / Party</a>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/menu_img04.jpg" alt="메뉴4">
+                <a>Signature wine</a>
+              </li>
+            </ul>
+          </div><!-- .swiper -->
+        </div><!-- .inner -->
+      </section>
+
+      <section class="section room fp-auto-height-responsive" data-anchor="menu4">
+        <div class="inner">
+          <h6>Restaurant o'neul</h6>
+          <h3>o’neul Room</h3>
+          <div class="swiper room-img-box">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <img src="images/room_img01.jpg" alt="방1">
+                <p>1F Reception</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/room_img02.jpg" alt="방1">
+                <p>2F Dining</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/room_img03.jpg" alt="방1">
+                <p>3F Hall</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/room_img04.jpg" alt="방1">
+                <p>4F Party</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/room_img05.jpg" alt="방1">
+                <p>1F Reception</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/room_img06.jpg" alt="방1">
+                <p>2F Dining</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/room_img07.jpg" alt="방1">
+                <p>3F Hall</p>
+              </li>
+              <li class="swiper-slide">
+                <img src="images/room_img08.jpg" alt="방1">
+                <p>4F Party</p>
+              </li>
+            </ul>
+          </div><!-- .swiper -->
+        </div>
+      </section>
+
+      <footer class="section fp-auto-height">
+        <div class="inner">
+          <div class="foot-left">
+            <h2><img src="images/footer_logo.png" alt="#"></h2>
+            <p class="inform">상호명재단법인<span>행복에프앤씨</span>사업자번호<span>106-82-15618</span> 대표자명<span>안범환</span></p>
+            <address>주소<span>서울특별시 용산구 동빙고동 1-54(장문로 60)</span></address>
+            <p class="copy">Copyright &copy; 2020 Restaurant o’neul. All right reserved.</p>
+          </div>
+
+          <ul class="foot-right-link">
+            <li><a href="#"><img src="images/ico_insta.png" alt="링크1"></a></li>
+            <li><a href="#"><img src="images/ico_youtube.png" alt="링크2"></a></li>
+            <li><a href="#"><img src="images/ico_facebook.png" alt="링크3"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+
+
+  </div><!-- #wrap -->
+</body>
+</html>
